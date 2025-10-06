@@ -15,14 +15,6 @@ st.title("🏗️ Deteksi Jenis Kerusakan Dinding Menggunakan YOLOv8")
 st.markdown("""
 Aplikasi ini menggunakan model **YOLOv8** untuk mendeteksi berbagai jenis **keretakan dinding** dan **jamur**.
 
-### Jenis kerusakan yang dapat dikenali:
-- 🧱 `crack`
-- 🔺 `diagonal_crack`
-- 🩶 `hairline_crack`
-- ➖ `horizontal_crack`
-- ⚡ `through_crack`
-- ⬆️ `vertical_crack`
-- 🍃 `wall_mold`
 """)
 
 # -----------------------------
@@ -118,3 +110,4 @@ if uploaded_file:
 
     # Hapus file sementara setelah selesai
     os.remove(temp_file.name)
+
