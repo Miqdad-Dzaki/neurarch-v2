@@ -10,7 +10,7 @@ import pandas as pd
 # 🏗️ APP CONFIG
 # -----------------------------
 st.set_page_config(page_title="Wall Damage Detection", page_icon="🏗️", layout="wide")
-st.title("🏗️ Wall Crack and Mold Detection using YOLOv8")
+st.title("Wall Crack and Mold Detection using YOLOv8")
 
 st.markdown("""
 This app uses a **YOLOv8 model** to detect various **wall cracks** and **black mold** types.
@@ -125,3 +125,4 @@ Ensure proper ventilation and fix leaks to prevent recurrence.")
 
     # Clean up temporary file
     os.remove(temp_file.name)
+
